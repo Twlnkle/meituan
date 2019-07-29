@@ -1,0 +1,35 @@
+
+.fixedfooter{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    height: 2.5rem;
+    border:1px solid grey;
+    padding: 0.3rem 0;
+    padding-top: 0.4rem;
+    background-color: white;
+    z-index: 10;
+}
+.fixedfooter>ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.fixedfooter>ul>li{
+    list-style: none;
+    flex:1;
+    text-align: center;
+    font-size: 0.5rem;
+}
+.fixedfooter>ul>li>a>img{
+    width:1.2rem;
+}
+.fixedfooter>ul>li>a{
+    text-decoration: none;
+    color:black;
+}
+.footerColor{
+    color: #FED06A;
+}

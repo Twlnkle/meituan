@@ -1,0 +1,27 @@
+.menulist{
+    width:100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+.menulist>ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.5rem 0;
+}
+.menulist>ul>a{
+    display: block;
+    width:25%;
+    text-decoration: none;
+    color:black;
+}
+.menulist>ul>a li{
+    list-style: none;
+    text-align: center;
+}
+.menulist>ul>a li img{
+    width:50%;
+}
+.menulist>ul>a>li span{
+    font-size: 0.7rem;
+}

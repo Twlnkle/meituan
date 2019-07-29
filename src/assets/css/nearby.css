@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.nearby{
+    width:100%;
+    height:auto;
+    background-color: white;
+    margin: 0.3rem 0;
+}
+.neartitle{
+    line-height: 2rem;
+    font-size: 0.8rem;
+    padding-left: 1.2rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid silver;
+}
+.near_per{
+    margin-bottom: 3.3rem;
+}
+.near_per>a{
+    text-decoration: none;
+    color:black;
+}
+.near_per li{
+    display: flex;
+    flex-direction: row;
+    margin:0.3rem;
+    text-decoration: none;
+}
+.per_left{
+    flex:0.4;
+    text-align: center;
+}
+.per_left img{
+    width:90%;
+    border-radius: 0.2rem;
+}
+.per_right{
+    
+    border-bottom: 1px solid rgb(228, 228, 228);
+    flex:1;
+}
+.per_name{
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.shopinfo{
+    display: flex;
+    flex-direction: row;
+}
+.shopinfo>span:nth-child(1){
+    flex:2;
+    font-size:0.6rem;
+    color:rgb(156, 156, 156);
+}
+.shopinfo>span:nth-child(2){
+    flex:0.5;
+    font-size:0.6rem;
+    color:rgb(156, 156, 156);
+}
+.shopinfo>span:nth-child(3){
+    flex:0.5;
+    font-size:0.6rem;
+    color:rgb(156, 156, 156);
+}
+.shopprice{
+    display: flex;
+    flex-direction: row;
+}
+.shopprice>span{
+    margin: 0 0.2rem;
+    color:rgb(156, 156, 156);
+    font-size:0.6rem;
+    margin-right: 0.3rem;
+}
+.shopprice>img{
+    width:1.5rem;
+    height:0.7rem;
+    position: absolute;
+    right:0.8rem;
+}
